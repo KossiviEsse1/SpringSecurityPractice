@@ -1,9 +1,11 @@
-package controllers;
+package com.example.jwtPractice.controllers;
 
-import Security.AuthResponse;
-import Services.*;
-import models.LoginForm;
-import models.User;
+import com.example.jwtPractice.Security.AuthResponse;
+import com.example.jwtPractice.Services.EmailExistsException;
+import com.example.jwtPractice.Services.UserService;
+import com.example.jwtPractice.Services.UsernameExistsException;
+import com.example.jwtPractice.models.LoginForm;
+import com.example.jwtPractice.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,7 +17,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import Security.JwtUtil;
+import com.example.jwtPractice.Security.JwtUtil;
 
 @RestController
 @RequestMapping("/api/auth")

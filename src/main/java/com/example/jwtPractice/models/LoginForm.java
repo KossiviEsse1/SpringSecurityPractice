@@ -1,4 +1,4 @@
-package models;
+package com.example.jwtPractice.models;
 
 public class LoginForm {
     private String userCredential;

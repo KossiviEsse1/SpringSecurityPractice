@@ -1,7 +1,7 @@
-package Services;
+package com.example.jwtPractice.Services;
 
-import models.User;
-import models.UserRepository;
+import com.example.jwtPractice.models.User;
+import com.example.jwtPractice.models.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -13,6 +13,7 @@ public class UserService {
 
     @Autowired
     private UserRepository repository;
+
     @Autowired
     private PasswordEncoder encoder;
 

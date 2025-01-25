@@ -1,4 +1,4 @@
-package Security;
+package com.example.jwtPractice.Security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
@@ -10,7 +10,7 @@ import java.util.Date;
 @Component
 public class JwtUtil {
 
-    private static final String SECRET_KEY = "this_IS-m408_SeCRE_nwojia_KEy";
+    private static final String SECRET_KEY = "thisISm408SeCREnwojiaKEy023897q3gnq934qaw9384935hpainwfowjpa3toung34qp0j83giam3inawf0wai4fa3in3g3ruqoj";
 
     public String generateToken(String username) {
         return Jwts.builder()

@@ -1,8 +1,7 @@
-package Security;
+package com.example.jwtPractice.Security;
 
-import Services.UserService;
-import models.User;
-import models.UserRepository;
+import com.example.jwtPractice.Services.UserService;
+import com.example.jwtPractice.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

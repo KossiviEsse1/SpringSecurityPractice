@@ -1,4 +1,4 @@
-package Security;
+package com.example.jwtPractice.Security;
 
 public class AuthResponse {
     private String token;
